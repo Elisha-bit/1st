@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 500;
+    font-size: 50px;
+
+}
+p{
+    color: brown;
+    text-align: center;
+    font: 500;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navlink{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    border: 0cap;
+    margin: 0%;
+    padding: 0cap;
+    background-color: aliceblue;
+}
