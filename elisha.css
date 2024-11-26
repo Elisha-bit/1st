@@ -1,0 +1,234 @@
+.navlink{
+    border: transparent;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+    text-align: end;
+}
+.contain{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background-color: #35424a;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#e8491d 3px solid;
+}
+header a{
+   color: #ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px; 
+}
+ ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 30px;
+}
+.scholl{
+    display: flex;
+    
+}
+.ok{
+    margin: 0;
+    padding: 0;
+    font: 15px/1.5 Arial,Helvetica,sans-serif;
+    background-image: url(/img/nature-suffocated-by-co2-pollution.jpg);
+    background-position: top;
+    background-size: top;
+    background-repeat:no-repeat;
+    text-transform: uppercase;
+
+}
+
+.kojo{
+
+    width: 100%;
+    margin-bottom: 29px;
+} 
+.heat{
+    color: black;
+}
+.gas{
+    color: black;
+}
+.came{
+    color: black;
+}
+.that{
+    width: 50%;
+}
+.school{
+    display: flex;
+}
+
+footer{
+    background-color: white;
+}
+.hi{
+    width: 40%;
+    margin-bottom: 29px;
+    margin-top: 29px;
+}
+.me{
+    margin-bottom: 39px;
+    margin-top: 29px;
+    width: 40%;
+}
+.kill{
+    text-transform: uppercase; 
+    color: red;
+} 
+.him{
+    width: 240px;
+}
+.fuck{
+    background-image: url(/img/istockphoto-1387784358-612x612.jpg);
+}
+header #home{
+    float: left;
+}
+header #home h1{
+    margin: 0%;
+}
+header nav{
+ margin-top: 10px;
+    float: right;
+}
+header .highlight{
+    display: flex;
+    float: right;
+}
+header .highlight,.current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+
+#up{
+    min-height: 400px;
+    text-align: center;
+    color:#060606; 
+}
+
+
+
+
+#up h1{
+    margin-top: 100px;
+    font-size: larger;
+    margin-bottom: 10px;
+
+}
+#up p{
+    font-size: larger;
+} 
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #e8491d;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input[type ="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;    
+}
+#newsletter input[type ="firstname"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;    
+} 
+.button{
+    height: 35px;
+    background-color: #35424a;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    width: 90px;
+
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: black;
+    backdrop-filter: blur(5px);
+    text-align: center;
+}
+#am .h1{
+    color: black;
+    text-align: center;
+    background-color: #ffffff;
+} 
+#am .p{ 
+    text-align: center;
+}
+.it{
+    font-size: larger;
+    text-align: center;
+    text-transform: uppercase;
+}
+body{
+    background-color: #d0e4fe;
+}
+.school{
+    background-color: aliceblue;
+    margin: 20px 0 20px 0;
+}
+.me{
+    border: none;
+    margin: 20px 20px 20px 20px;
+    height: 30%;
+
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(max-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .background-clip{
+        width:auto ;
+        height: 100%;
+    }
+}
