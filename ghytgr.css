@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family:poppins sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+    background-color: black;
+    color: wheat;
+}
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 3rem;
+    color: #b74b4b;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-weight: 800;
+}
+.logo:hover{
+    transform: scale(1.1%);
+}
+nav a{ 
+    gap: 100;
+    padding: 20px;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover
+nav a.active{
+    color: #b74b4b;
+    border-bottom: 3px solid transparent;
+}
+@media(max-width:995px){
+    nav{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid #b74b4b;
+        border-bottom: 3px solid #b74b4b;
+        border-top-left-radius: 2rem;
+        padding: 1rem;
+        background-color: #161616;
+        border-top: 0.1rem solid rgba(0,0,0,0,1%);
+    }
+
+    nav.active{
+        display: block;
+    }
+    nav a{
+        display: black;
+        font-size: 2rem; 
+        margin: 3rem;
+    
+    }
+}
+
+
+
+@keyframes slide-up {
+        from{transform: translateX(100px);}       
+}
+
+.navbar{
+    position: fixed;
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    animation-name:slide-up ;
+    animation-duration: 2s;
+}
+.logo{
+    border-radius: 19px;
+    transform: rotate(19px);
+    backdrop-filter: blur(19px);
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+
+}
+
+ul{
+    margin-top:-4% ;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: dotted;
+    color: black;
+    margin-top: -3px ;
+    transition: .4s ease;
+}
+
+
+
+
+ul li a:hover{
+    color: chartreuse;
+
+}
